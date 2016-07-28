@@ -1,7 +1,7 @@
 var vscode = require('vscode');
 var htmlParser = require('htmlparser2');
 var cssParser = require('css');
-var mode = 'debug';
+var mode = 'production';
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
