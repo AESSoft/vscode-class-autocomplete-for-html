@@ -10,6 +10,8 @@ Extension automatically scans an active HTML file for external CSS style sheet l
 -	Class names are also extracted from within media queries.
 -	CSS file scanning can be started manually using command palette. Just execute the "Scan linked CSS files" command.
 
+\!\[Demo\]\(images/demo.gif\)
+
 ## Known Issues
 -	Extension can take even over 30 seconds to generate a class list when used in conjunction with frameworks like Bootstrap, Foundation, Font Awesome etc. due to a large number of CSS classes.
 -	Minified CSS may cause class list not to generate properly. (Please use uncompressed CSS for development.)
