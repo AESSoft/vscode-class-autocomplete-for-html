@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "publisher": "AESSoft",
     "preview": true,
+    "icon": "images/icon.svg",
     "keywords": [
         "html",
         "css",
