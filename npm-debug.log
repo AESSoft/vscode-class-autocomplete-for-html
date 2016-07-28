@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose readDependencies loading dependencies from C:\Users\full time\Visual Studio Code\aessoft-css-hint\package.json
+5 warn package.json aessoft-css-hint@0.0.1 No repository field.
+6 warn package.json aessoft-css-hint@0.0.1 No license field.
+7 verbose install where, deps [ 'C:\\Users\\full time\\Visual Studio Code\\aessoft-css-hint',
+7 verbose install   [ 'vscode' ] ]
+8 verbose install where, peers [ 'C:\\Users\\full time\\Visual Studio Code\\aessoft-css-hint',
+8 verbose install   [] ]
+9 verbose installManyTop reading for lifecycle C:\Users\full time\Visual Studio Code\aessoft-css-hint\package.json
+10 info preinstall aessoft-css-hint@0.0.1
+11 verbose installManyTop reading scoped package data from C:\Users\full time\Visual Studio Code\aessoft-css-hint\node_modules\vscode\package.json
+12 verbose readDependencies loading dependencies from C:\Users\full time\Visual Studio Code\aessoft-css-hint\package.json
+13 verbose targetResolver reading package data from C:\Users\full time\Visual Studio Code\aessoft-css-hint\node_modules\vscode\package.json
+14 verbose already installed skipping vscode@^0.11.0 C:\Users\full time\Visual Studio Code\aessoft-css-hint
+15 silly install resolved []
+16 info build C:\Users\full time\Visual Studio Code\aessoft-css-hint
+17 info linkStuff aessoft-css-hint@0.0.1
+18 silly linkStuff aessoft-css-hint@0.0.1 has C:\Users\full time\Visual Studio Code as its parent node_modules
+19 verbose linkBins aessoft-css-hint@0.0.1
+20 verbose linkMans aessoft-css-hint@0.0.1
+21 verbose rebuildBundles aessoft-css-hint@0.0.1
+22 verbose rebuildBundles [ 'vscode' ]
+23 info install aessoft-css-hint@0.0.1
+24 info postinstall aessoft-css-hint@0.0.1
+25 verbose unsafe-perm in lifecycle true
+26 info aessoft-css-hint@0.0.1 Failed to exec postinstall script
+27 verbose stack Error: aessoft-css-hint@0.0.1 postinstall: `node ./node_modules/vscode/bin/install`
+27 verbose stack Exit status 1
+27 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+27 verbose stack     at emitTwo (events.js:87:13)
+27 verbose stack     at EventEmitter.emit (events.js:172:7)
+27 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+27 verbose stack     at emitTwo (events.js:87:13)
+27 verbose stack     at ChildProcess.emit (events.js:172:7)
+27 verbose stack     at maybeClose (internal/child_process.js:827:16)
+27 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+28 verbose pkgid aessoft-css-hint@0.0.1
+29 verbose cwd C:\Users\full time\Visual Studio Code\aessoft-css-hint
+30 error Windows_NT 6.1.7601
+31 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+32 error node v4.4.7
+33 error npm  v2.15.8
+34 error code ELIFECYCLE
+35 error aessoft-css-hint@0.0.1 postinstall: `node ./node_modules/vscode/bin/install`
+35 error Exit status 1
+36 error Failed at the aessoft-css-hint@0.0.1 postinstall script 'node ./node_modules/vscode/bin/install'.
+36 error This is most likely a problem with the aessoft-css-hint package,
+36 error not with npm itself.
+36 error Tell the author that this fails on your system:
+36 error     node ./node_modules/vscode/bin/install
+36 error You can get information on how to open an issue for this project with:
+36 error     npm bugs aessoft-css-hint
+36 error Or if that isn't available, you can get their info via:
+36 error
+36 error     npm owner ls aessoft-css-hint
+36 error There is likely additional logging output above.
+37 verbose exit [ 1, true ]

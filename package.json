@@ -1,0 +1,53 @@
+{
+    "name": "aessoft-class-autocomplete",
+    "displayName": "Class autocomplete for HTML",
+    "description": "Intelligent auto completion for HTML class=\"\" attribute.",
+    "version": "0.1.0",
+    "publisher": "AESSoft",
+    "preview": true,
+    "keywords": [
+        "html",
+        "css",
+        "class",
+        "autocomplete",
+        "hint",
+        "intellisense"
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+        "url": "https://github.com/AESSoft/vscode-class-autocomplete-for-html/issues",
+        "email": ""
+    },
+    "homepage": "https://github.com/AESSoft/vscode-class-autocomplete-for-html/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AESSoft/vscode-class-autocomplete-for-html.git"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages",
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:html"
+    ],
+    "main": "./extension",
+    "dependencies": {
+		"css": "2.2.1",
+		"htmlparser2": "3.9.1"
+	},
+    "contributes": {
+        "commands": [{
+            "command": "extension.scanForCssClasses",
+            "title": "Scan linked CSS files"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
