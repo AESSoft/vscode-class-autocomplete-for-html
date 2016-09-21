@@ -52,6 +52,14 @@ function activate(context) {
                                     }
                                 }
                             }
+                            //support to use html comment for css file reference,
+                            //for instance, adding <!--../test.css--> into a html file, the test.css should be scaned                         
+                            oncomment:function(data){                            
+                                if(data.trim().toLowerCase().indexOf('.css') > 0){
+                                    toLog('Found link to a stylesheet: ' + data.trim());                                
+                                    hrefs.push(data.trim());
+                                }
+                            }
                         }
                     }, 
                     {
